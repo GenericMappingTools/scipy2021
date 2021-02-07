@@ -25,6 +25,20 @@ following is required:
   past experiences as a trainer/teacher/speaker, and (ideally) links to videos
   of these experiences if available.
 
+Presenters:
+* [Liam Toney](https://liam.earth/)
+* *Other presenters (if applicable), add your names here!*
+
+Liam (he/him/his) is a PhD student studying seismology and infrasound at the
+University of Alaska Fairbanks Geophysical Institute in Fairbanks, Alaska, USA.
+He is a contributor to PyGMT and, in summer 2020, taught a module on PyGMT for
+the inaugural
+[Remote Online Sessions for Emerging Seismologists (ROSES)](https://www.iris.edu/hq/inclass/course/roses)
+summer school. The materials for the ROSES module can be found in
+[this GitHub repository](https://github.com/fdannemanndugick/roses2020), and a
+1-hour-long video recording of part of the course can be viewed on YouTube
+[here](https://youtu.be/SSIGJEe0BIk).
+
 > A list of prerequisite skills expected of attendees, so that participants can
   choose level appropriate tutorials.
 
