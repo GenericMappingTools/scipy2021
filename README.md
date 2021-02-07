@@ -54,5 +54,20 @@ summer school. The materials for the ROSES module can be found in
   that attendees can have everything ready for participating before heading to
   SciPy.
 
+Installation instructions for PyGMT can be found
+[here](https://www.pygmt.org/latest/install.html). To run the tutorial
+notebooks, you'll also need to
+[install Jupyter Notebook](https://jupyter.org/install).
+
+The tutorial environment, containing both requirements mentioned above, can be
+installed via [conda](https://docs.conda.io/en/latest/) through creation of a
+new environment (recommended):
+```
+conda create --name pygmt --channel conda-forge notebook pygmt
+```
+
+You can also use [pip](https://pip.pypa.io/en/stable/)... ⚠️  **TODO: Add pip
+instructions, maybe also Binder?** ⚠️
+
 > If available, the tutorial notes, slides, exercise files, and IPython
   notebooks, even if they are preliminary.
