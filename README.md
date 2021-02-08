@@ -80,5 +80,7 @@ conda create --name pygmt --channel conda-forge notebook pygmt
 You can also use [pip](https://pip.pypa.io/en/stable/)... ⚠️  **TODO: Add pip
 instructions, maybe also Binder?** ⚠️
 
+[![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/GenericMappingTools/scipy2021/main)
+
 > If available, the tutorial notes, slides, exercise files, and IPython
   notebooks, even if they are preliminary.
