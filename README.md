@@ -27,7 +27,6 @@ following is required:
 
 Presenters:
 * [Liam Toney](https://liam.earth/)
-* *Other presenters (if applicable), add your names here!*
 
 Liam (he/him/his) is a PhD student studying seismology and infrasound at the
 University of Alaska Fairbanks Geophysical Institute in Fairbanks, Alaska, USA.
@@ -38,6 +37,18 @@ summer school. The materials for the ROSES module can be found in
 [this GitHub repository](https://github.com/fdannemanndugick/roses2020), and a
 1-hour-long video recording of part of the course can be viewed on YouTube
 [here](https://youtu.be/SSIGJEe0BIk).
+
+* [Wei Ji Leong](https://github.com/weiji14)
+
+Wei Ji (he/him/his) is a PhD student in Glaciology at the Antarctic Research
+Centre in Wellington, New Zealand, specializing in satellite remote sensing and
+deep learning. He is one of the core developers of PyGMT and was the instructor
+for the [PyGMT for geoscientists workshop](https://2019.foss4g-oceania.org/schedule/2019-11-12?sessionId=SPGUQV)
+and [Community Day code sprint](https://2019.foss4g-oceania.org/community-day)
+at the FOSS4G Oceania 2019 conference. Jupyter notebooks for the workshop are
+available on Github at https://github.com/GenericMappingTools/foss4g2019oceania.
+
+* *Other presenters/team members (if applicable), add your names here!*
 
 > A list of prerequisite skills expected of attendees, so that participants can
   choose level appropriate tutorials.
