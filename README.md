@@ -75,7 +75,7 @@ background in cartography is not required to use PyGMT effectively! By the end o
   each part and exercise sessions. Please include a description of how you plan
   to make the tutorial hands-on.
 
-⚠️ **TODO:** The following schedule has been copied from the 2019 FOSS4G Oceania workshop.⚠️
+⚠️ **TODO:** The following schedule has been copied from the 2019 FOSS4G Oceania workshop. ⚠️
 |  Time       | Event                                                 |
 |:------------|:------------------------------------------------------|
 | 15 minutes  | Brief overview                                        |
