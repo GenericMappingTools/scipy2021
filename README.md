@@ -50,18 +50,40 @@ and [Community Day code sprint](https://2019.foss4g-oceania.org/community-day)
 at the FOSS4G Oceania 2019 conference. Jupyter notebooks for the workshop are
 available on Github at https://github.com/GenericMappingTools/foss4g2019oceania.
 
-* *Other presenters/team members (if applicable), add your names here!*
+* ⚠️ **TODO:** Other presenters/team members (if applicable), add your names here! ⚠️
 
 > A list of prerequisite skills expected of attendees, so that participants can
   choose level appropriate tutorials.
+
+Basic Python knowledge (how to import a package, how to use positional and keyword
+arguments). No prior mapping experience necessary!
 
 > A description of the tutorial, suitable for posting on the SciPy website for
   attendees to view. It should include the target audience, the expected level
   of knowledge prior to the class, and the goals of the class.
 
+In many scientific disciplines, accurate, intuituve, and aesthetically pleasing
+display of geospatial information is a critical tool. PyGMT is a mapping toolbox
+designed to produce publication-quality figures and maps for insertion into posters,
+reports, and manuscripts. This class is geared towards SciPy attendees interested in
+creating beautiful maps using Python. Only basic Python knowledge is needed, and a
+background in cartography is not required to use PyGMT effectively! By the end of this tutorial, students will be able to:
+
+* ⚠️ **TODO** ⚠️
+
 > A more detailed outline of the tutorial content, including the duration of
   each part and exercise sessions. Please include a description of how you plan
   to make the tutorial hands-on.
+
+⚠️ **TODO:** The following schedule has been copied from the 2019 FOSS4G Oceania workshop.⚠️
+|  Time       | Event                                                 |
+|:------------|:------------------------------------------------------|
+| 15 minutes  | Brief overview                                        |
+| 45 minutes  | Tutorial 1 - Introduction to PyGMT for GeoScientists  |
+| 45 minutes  | Tutorial 2 - PyData and PyGMT - plotting data on maps |
+| 15 minutes  | Coffee/Tea Break                                      |
+| 45 minutes  | Tutorial 3 - LiDAR Point clouds to 3D surfaces        |
+| 45 minutes  | Final projects and wrap up                            |
 
 > Detailed installation instructions for various common Python environments so
   that attendees can have everything ready for participating before heading to
@@ -72,17 +94,24 @@ Installation instructions for PyGMT can be found
 notebooks, you'll also need to
 [install Jupyter Notebook](https://jupyter.org/install).
 
-The tutorial environment, containing both requirements mentioned above, can be
-installed via [conda](https://docs.conda.io/en/latest/) through creation of a
-new environment (recommended):
+The tutorial environment, containing both requirements mentioned above, is specified
+in the `environment.yml` file found in this repository. It can be installed via
+[conda](https://docs.conda.io/en/latest/) with the following command:
 ```
-conda create --name pygmt --channel conda-forge notebook pygmt
+conda env create -f environment.yml
 ```
 
-You can also use [pip](https://pip.pypa.io/en/stable/)... ⚠️  **TODO: Add pip
-instructions, maybe also Binder?** ⚠️
+If local installation is challenging or impossible, you can access this environment
+on a cloud machine by clicking on the badge below — **but note that your work will
+not be saved between sessions with this method!** 🚨
 
 [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/GenericMappingTools/scipy2021/main)
 
 > If available, the tutorial notes, slides, exercise files, and IPython
   notebooks, even if they are preliminary.
+
+Jupyter Notebooks from previous tutorials and classes are available
+[here](https://github.com/GenericMappingTools/foss4g2019oceania) and
+[here](https://github.com/fdannemanndugick/roses2020/tree/master/unit08).
+These will be modified and expanded to be made more suitable for a general SciPy
+audience (i.e., not just Earth scientists 🌎).
