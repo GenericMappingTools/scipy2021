@@ -36,7 +36,9 @@ the inaugural
 summer school. The materials for the ROSES module can be found in
 [this GitHub repository](https://github.com/fdannemanndugick/roses2020), and a
 1-hour-long video recording of part of the course can be viewed on YouTube
-[here](https://youtu.be/SSIGJEe0BIk). ⚠️  **TODO: Add SciPy 2020 sprint info!** ⚠️
+[here](https://youtu.be/SSIGJEe0BIk). Liam also led a
+[sprint for PyGMT](https://github.com/GenericMappingTools/pygmt/issues?q=label%3Ascipy-sprint)
+at SciPy 2020.
 
 * [Wei Ji Leong](https://github.com/weiji14)
 
