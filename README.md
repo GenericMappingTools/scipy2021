@@ -45,45 +45,57 @@ at SciPy 2020.
 Wei Ji (he/him/his) is a PhD student in Glaciology at the Antarctic Research
 Centre in Wellington, New Zealand, specializing in satellite remote sensing and
 deep learning. He is one of the core developers of PyGMT and was the instructor
-for the [PyGMT for geoscientists workshop](https://2019.foss4g-oceania.org/schedule/2019-11-12?sessionId=SPGUQV)
+for the
+[PyGMT for geoscientists workshop](https://2019.foss4g-oceania.org/schedule/2019-11-12?sessionId=SPGUQV)
 and [Community Day code sprint](https://2019.foss4g-oceania.org/community-day)
 at the FOSS4G Oceania 2019 conference. Jupyter notebooks for the workshop are
-available on Github at https://github.com/GenericMappingTools/foss4g2019oceania.
-
-* ⚠️ **TODO:** Other presenters/team members (if applicable), add your names here! ⚠️
+available on Github at
+[github.com/GenericMappingTools/foss4g2019oceania](https://github.com/GenericMappingTools/foss4g2019oceania).
 
 > A list of prerequisite skills expected of attendees, so that participants can
   choose level appropriate tutorials.
 
-Basic Python knowledge (how to import a package, how to use positional and keyword
-arguments). No prior mapping experience necessary!
+Basic Python knowledge (how to install and import packages, how to use positional
+and keyword arguments). No prior mapping experience is necessary!
 
 > A description of the tutorial, suitable for posting on the SciPy website for
   attendees to view. It should include the target audience, the expected level
   of knowledge prior to the class, and the goals of the class.
 
-In many scientific disciplines, accurate, intuituve, and aesthetically pleasing
+In many scientific disciplines, accurate, intuitive, and aesthetically pleasing
 display of geospatial information is a critical tool. PyGMT is a mapping toolbox
 designed to produce publication-quality figures and maps for insertion into posters,
 reports, and manuscripts. This class is geared towards SciPy attendees interested in
 creating beautiful maps using Python. Only basic Python knowledge is needed, and a
-background in cartography is not required to use PyGMT effectively! By the end of this tutorial, students will be able to:
+background in cartography is not required to use PyGMT effectively! By the end of
+this tutorial, students will be able to:
 
-* ⚠️ **TODO** ⚠️
+* Craft basic maps with geographic map frames using different projections
+* Add context to their figures, such as legends, colorbars, inset overview maps, etc
+* Use PyGMT to process PyData data structures (pandas/xarray) and plot them on maps
+* Understand how PyGMT can be used for various applications in the Earth sciences and
+  beyond!
 
 > A more detailed outline of the tutorial content, including the duration of
   each part and exercise sessions. Please include a description of how you plan
   to make the tutorial hands-on.
+  
+The four-hour-long tentative schedule below is roughly based on
+[github.com/GenericMappingTools/2020-unavco-course](https://github.com/GenericMappingTools/2020-unavco-course)
+and
+[github.com/GenericMappingTools/foss4g2019oceania](https://github.com/GenericMappingTools/foss4g2019oceania),
+from where we can repurpose some of the content.
 
-⚠️ **TODO:** The following schedule has been copied from the 2019 FOSS4G Oceania workshop. ⚠️
-|  Time       | Event                                                 |
-|:------------|:------------------------------------------------------|
-| 15 minutes  | Brief overview                                        |
-| 45 minutes  | Tutorial 1 - Introduction to PyGMT for GeoScientists  |
-| 45 minutes  | Tutorial 2 - PyData and PyGMT - plotting data on maps |
-| 15 minutes  | Coffee/Tea Break                                      |
-| 45 minutes  | Tutorial 3 - LiDAR Point clouds to 3D surfaces        |
-| 45 minutes  | Final projects and wrap up                            |
+| Time         | Event                                                                  |
+|:-------------|:-----------------------------------------------------------------------|
+| 20 minutes   | Introduction and orientation to PyGMT and associated resources         |
+| 45 minutes   | Mapping basics (frames, projections, coastlines, ...)                  |
+| 45 minutes   | Plotting basics (lines, points, legends, colorbars, inset maps, etc)   |
+| *10 minutes* | *Break*                                                                |
+| 45 minutes   | PyData and PyGMT (`pandas.DataFrame` and `xarray.DataArray` ingestion) |
+| 30 minutes   | Applications (3D LiDAR and seismology)                                 |
+| 30 minutes   | Group projects in breakouts                                            |
+| 15 minutes   | Wrap up                                                                |
 
 > Detailed installation instructions for various common Python environments so
   that attendees can have everything ready for participating before heading to
@@ -103,7 +115,8 @@ conda env create -f environment.yml
 
 If local installation is challenging or impossible, you can access this environment
 on a cloud machine by clicking on the badge below — **but note that your work will
-not be saved between sessions with this method!** 🚨
+not be saved between sessions with this method, so download your work (e.g.,
+notebooks) often!** 🚨
 
 [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/GenericMappingTools/scipy2021/main)
 
