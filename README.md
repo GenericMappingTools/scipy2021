@@ -28,12 +28,13 @@ following is required:
 -->
 
 In many scientific disciplines, accurate, intuitive, and aesthetically pleasing
-display of geospatial information is a critical tool. PyGMT is a mapping toolbox
-designed to produce publication-quality figures and maps for insertion into posters,
-reports, and manuscripts. This class is geared towards SciPy attendees interested in
-creating beautiful maps using Python. Only basic Python knowledge is needed, and a
-background in cartography is not required to use PyGMT effectively! By the end of
-this tutorial, students will be able to:
+display of geospatial information is a critical tool. PyGMT (a Python interface to
+GMT, the [Generic Mapping Tools](https://www.generic-mapping-tools.org/)) is a mapping
+toolbox designed to produce publication-quality figures and maps for insertion into
+posters, reports, and manuscripts. This class is geared towards SciPy attendees
+interested in creating beautiful maps using Python. Only basic Python knowledge is
+needed, and a background in cartography is not required to use PyGMT effectively!
+By the end of this tutorial, students will be able to:
 
 * Craft basic maps with geographic map frames using different projections
 * Add context to their figures, such as legends, colorbars, and inset overview maps
@@ -65,29 +66,29 @@ at SciPy 2020.
 
 * [Wei Ji Leong](https://github.com/weiji14)
 
-Wei Ji (he/him/his) is a PhD student in Glaciology at the Antarctic Research
+Wei Ji (he/him/his) is a PhD student in glaciology at the Antarctic Research
 Centre in Wellington, New Zealand, specializing in satellite remote sensing and
 deep learning. He is one of the core developers of PyGMT and was the instructor
 for the
-[PyGMT for geoscientists workshop](https://2019.foss4g-oceania.org/schedule/2019-11-12?sessionId=SPGUQV)
+[PyGMT for Geoscientists workshop](https://2019.foss4g-oceania.org/schedule/2019-11-12?sessionId=SPGUQV)
 and [Community Day code sprint](https://2019.foss4g-oceania.org/community-day)
 at the FOSS4G Oceania 2019 conference. Jupyter notebooks for the workshop are
-available on Github at
+available on at
 [github.com/GenericMappingTools/foss4g2019oceania](https://github.com/GenericMappingTools/foss4g2019oceania).
 
 * [Tyler Newton](http://tnewton.com/)
 
 Tyler (he/him/his) is a PhD student studying seismology and fault mechanics at
 the University of Oregon in Eugene, Oregon, USA. He is a PyGMT contributor and
-first got involved with PyGMT at the SciPy 2020 sprint. Tyler has assisted with
-teaching computational Earth science, including mapping with Generic Mapping Tools,
-as a teaching assistant at University of Oregon. 
+first got involved with PyGMT during the SciPy 2020 sprint. Tyler has assisted with
+teaching computational Earth science, including mapping with GMT, as a teaching
+assistant at the University of Oregon. 
 
 * [Meghan Jones]( https://github.com/meghanrjones)
 
 Meghan (she/her/hers) is a postdoctoral researcher at the University of Hawai'i
 at Mānoa working on building the GMT developer community, maintaining the GMT
-and PyGMT libraries, and refactoring the C source code. She has developed and
+and PyGMT libraries, and refactoring GMT's C source code. She has developed and
 taught course material in oceanography and has led informal workshops on data
 processing and visualization using GMT.
 
@@ -99,7 +100,7 @@ A list of prerequisite skills expected of attendees, so that participants can
 -->
 
 Basic Python knowledge (how to install and import packages, how to use positional
-and keyword arguments). No prior mapping experience is necessary!
+and keyword arguments, etc.). No prior mapping experience is necessary!
 
 ## Detailed timeline
 
@@ -109,14 +110,15 @@ and keyword arguments). No prior mapping experience is necessary!
   to make the tutorial hands-on.
 -->
   
-The four-hour-long tentative schedule below is based on content from
+The four-hour-long tentative schedule below is based upon content from
 [github.com/GenericMappingTools/2020-unavco-course](https://github.com/GenericMappingTools/2020-unavco-course)
 and
-[github.com/GenericMappingTools/foss4g2019oceania](https://github.com/GenericMappingTools/foss4g2019oceania), adapted to fit a more general scientific audience.
-Each of the 30–45 minute sessions will involve a quick (10 minute) walkthrough by
-the speaker, followed by a more hands-on session in breakout rooms where tutorial
-participants work on the topic (using interactive Jupyter notebooks) in a guided
-environment.
+[github.com/GenericMappingTools/foss4g2019oceania](https://github.com/GenericMappingTools/foss4g2019oceania),
+adapted to fit a more general scientific audience. Each of the 30–45 minute sessions
+will involve a quick (~10 minute) walkthrough by the speaker, followed by a more
+hands-on session in breakout rooms where tutorial participants work on the topic
+(using interactive Jupyter notebooks) in a guided environment with one of four
+instructors on hand to answer questions.
 
 | Time         | Event                                                                  |
 |:-------------|:-----------------------------------------------------------------------|
