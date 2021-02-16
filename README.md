@@ -1,4 +1,4 @@
-# Crafting beautiful maps with PyGMT: Tutorial submission for SciPy 2021
+# Crafting beautiful maps with [PyGMT](https://www.pygmt.org): Tutorial submission for SciPy 2021
 
 <!--
 **16 February 2021**  
@@ -28,10 +28,10 @@ following is required:
 -->
 
 In many scientific disciplines, accurate, intuitive, and aesthetically pleasing
-display of geospatial information is a critical tool. PyGMT (a Python interface to
-GMT, the [Generic Mapping Tools](https://www.generic-mapping-tools.org/)) is a mapping
-toolbox designed to produce publication-quality figures and maps for insertion into
-posters, reports, and manuscripts. This class is geared towards SciPy attendees
+display of geospatial information is a critical tool. [PyGMT](https://www.pygmt.org)
+(a Python interface to the [Generic Mapping Tools](https://www.generic-mapping-tools.org/))
+is a mapping toolbox designed to produce publication-quality figures and maps for insertion
+into posters, reports, and manuscripts. This class is geared towards SciPy attendees
 interested in creating beautiful maps using Python. Only basic Python knowledge is
 needed, and a background in cartography is not required to use PyGMT effectively!
 By the end of this tutorial, students will be able to:
