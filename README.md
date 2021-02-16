@@ -1,7 +1,6 @@
 # Crafting beautiful maps with PyGMT: Tutorial submission for SciPy 2021
 
-## Timeline
-
+<!--
 **16 February 2021**  
 Tutorial submission deadline
 
@@ -15,17 +14,41 @@ scripts
 **12–13 July 2021**  
 SciPy 2021 tutorials
 
-## Submission materials
-
 From the
 [SciPy webpage on tutorials](https://www.scipy2021.scipy.org/tutorials), the
 following is required:
+-->
 
+## Summary
+
+<!--
+> A description of the tutorial, suitable for posting on the SciPy website for
+  attendees to view. It should include the target audience, the expected level
+  of knowledge prior to the class, and the goals of the class.
+-->
+
+In many scientific disciplines, accurate, intuitive, and aesthetically pleasing
+display of geospatial information is a critical tool. PyGMT is a mapping toolbox
+designed to produce publication-quality figures and maps for insertion into posters,
+reports, and manuscripts. This class is geared towards SciPy attendees interested in
+creating beautiful maps using Python. Only basic Python knowledge is needed, and a
+background in cartography is not required to use PyGMT effectively! By the end of
+this tutorial, students will be able to:
+
+* Craft basic maps with geographic map frames using different projections
+* Add context to their figures, such as legends, colorbars, and inset overview maps
+* Use PyGMT to process PyData data structures (pandas/xarray) and plot them on maps
+* Understand how PyGMT can be used for various applications in the Earth sciences and
+  beyond!
+  
+## Presenters
+
+<!--
 > A short bio of the presenter or team members, containing a description of
   past experiences as a trainer/teacher/speaker, and (ideally) links to videos
   of these experiences if available.
+-->
 
-Presenters:
 * [Liam Toney](https://liam.earth/)
 
 Liam (he/him/his) is a PhD student studying seismology and infrasound at the
@@ -52,33 +75,39 @@ at the FOSS4G Oceania 2019 conference. Jupyter notebooks for the workshop are
 available on Github at
 [github.com/GenericMappingTools/foss4g2019oceania](https://github.com/GenericMappingTools/foss4g2019oceania).
 
-> A list of prerequisite skills expected of attendees, so that participants can
+* [Tyler Newton](http://tnewton.com/)
+
+Tyler (he/him/his) is a PhD student studying seismology and fault mechanics at
+the University of Oregon in Eugene, Oregon, USA. He is a PyGMT contributor and
+first got involved with PyGMT at the SciPy 2020 sprint. Tyler has assisted with
+teaching computational Earth science, including mapping with Generic Mapping Tools,
+as a teaching assistant at University of Oregon. 
+
+* [Meghan Jones]( https://github.com/meghanrjones)
+
+Meghan (she/her/hers) is a postdoctoral researcher at the University of Hawai'i
+at Mānoa working on building the GMT developer community, maintaining the GMT
+and PyGMT libraries, and refactoring the C source code. She has developed and
+taught course material in oceanography and has led informal workshops on data
+processing and visualization using GMT.
+
+## Prerequisites
+
+<!--
+A list of prerequisite skills expected of attendees, so that participants can
   choose level appropriate tutorials.
+-->
 
 Basic Python knowledge (how to install and import packages, how to use positional
 and keyword arguments). No prior mapping experience is necessary!
 
-> A description of the tutorial, suitable for posting on the SciPy website for
-  attendees to view. It should include the target audience, the expected level
-  of knowledge prior to the class, and the goals of the class.
+## Detailed timeline
 
-In many scientific disciplines, accurate, intuitive, and aesthetically pleasing
-display of geospatial information is a critical tool. PyGMT is a mapping toolbox
-designed to produce publication-quality figures and maps for insertion into posters,
-reports, and manuscripts. This class is geared towards SciPy attendees interested in
-creating beautiful maps using Python. Only basic Python knowledge is needed, and a
-background in cartography is not required to use PyGMT effectively! By the end of
-this tutorial, students will be able to:
-
-* Craft basic maps with geographic map frames using different projections
-* Add context to their figures, such as legends, colorbars, inset overview maps, etc
-* Use PyGMT to process PyData data structures (pandas/xarray) and plot them on maps
-* Understand how PyGMT can be used for various applications in the Earth sciences and
-  beyond!
-
+<!--
 > A more detailed outline of the tutorial content, including the duration of
   each part and exercise sessions. Please include a description of how you plan
   to make the tutorial hands-on.
+-->
   
 The four-hour-long tentative schedule below is roughly based on
 [github.com/GenericMappingTools/2020-unavco-course](https://github.com/GenericMappingTools/2020-unavco-course)
@@ -89,22 +118,26 @@ from where we can repurpose some of the content.
 | Time         | Event                                                                  |
 |:-------------|:-----------------------------------------------------------------------|
 | 20 minutes   | Introduction and orientation to PyGMT and associated resources         |
-| 45 minutes   | Mapping basics (frames, projections, coastlines, ...)                  |
-| 45 minutes   | Plotting basics (lines, points, legends, colorbars, inset maps, etc)   |
+| 45 minutes   | Mapping basics (frames, projections, coastlines, etc.)                 |
+| 45 minutes   | Plotting basics (lines, points, legends, colorbars, inset maps, etc.)  |
 | *10 minutes* | *Break*                                                                |
 | 45 minutes   | PyData and PyGMT (`pandas.DataFrame` and `xarray.DataArray` ingestion) |
 | 30 minutes   | Applications (3D LiDAR and seismology)                                 |
 | 30 minutes   | Group projects in breakouts                                            |
 | 15 minutes   | Wrap up                                                                |
 
+## Installation instructions
+
+<!--
 > Detailed installation instructions for various common Python environments so
   that attendees can have everything ready for participating before heading to
   SciPy.
+-->
 
 Installation instructions for PyGMT can be found
 [here](https://www.pygmt.org/latest/install.html). To run the tutorial
 notebooks, you'll also need to
-[install Jupyter Notebook](https://jupyter.org/install).
+[install Jupyterlab/Notebook](https://jupyter.org/install).
 
 The tutorial environment, containing both requirements mentioned above, is specified
 in the `environment.yml` file found in this repository. It can be installed via
@@ -120,8 +153,12 @@ notebooks) often!** 🚨
 
 [![Binder](https://binder.pangeo.io/badge_logo.svg)](https://binder.pangeo.io/v2/gh/GenericMappingTools/scipy2021/main)
 
+## Tutorial material
+
+<!--
 > If available, the tutorial notes, slides, exercise files, and IPython
   notebooks, even if they are preliminary.
+-->
 
 Jupyter Notebooks from previous tutorials and classes are available
 [here](https://github.com/GenericMappingTools/foss4g2019oceania) and
