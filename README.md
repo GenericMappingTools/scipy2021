@@ -73,7 +73,7 @@ for the
 [PyGMT for Geoscientists workshop](https://2019.foss4g-oceania.org/schedule/2019-11-12?sessionId=SPGUQV)
 and [Community Day code sprint](https://2019.foss4g-oceania.org/community-day)
 at the FOSS4G Oceania 2019 conference. Jupyter notebooks for the workshop are
-available on at
+available at
 [github.com/GenericMappingTools/foss4g2019oceania](https://github.com/GenericMappingTools/foss4g2019oceania).
 
 * [Tyler Newton](http://tnewton.com/)
