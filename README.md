@@ -58,7 +58,7 @@ the inaugural
 [Remote Online Sessions for Emerging Seismologists (ROSES)](https://www.iris.edu/hq/inclass/course/roses)
 summer school. The materials for the ROSES module can be found in
 [this GitHub repository](https://github.com/fdannemanndugick/roses2020), and a
-1-hour-long video recording of part of the course can be viewed on YouTube
+one-hour-long video recording of part of the course can be viewed on YouTube
 [here](https://youtu.be/SSIGJEe0BIk). Liam also led a
 [sprint for PyGMT](https://github.com/GenericMappingTools/pygmt/issues?q=label%3Ascipy-sprint)
 at SciPy 2020.
@@ -109,20 +109,23 @@ and keyword arguments). No prior mapping experience is necessary!
   to make the tutorial hands-on.
 -->
   
-The four-hour-long tentative schedule below is roughly based on
+The four-hour-long tentative schedule below is based on content from
 [github.com/GenericMappingTools/2020-unavco-course](https://github.com/GenericMappingTools/2020-unavco-course)
 and
-[github.com/GenericMappingTools/foss4g2019oceania](https://github.com/GenericMappingTools/foss4g2019oceania),
-from where we can repurpose some of the content.
+[github.com/GenericMappingTools/foss4g2019oceania](https://github.com/GenericMappingTools/foss4g2019oceania), adapted to fit a more general scientific audience.
+Each of the 30–45 minute sessions will involve a quick (10 minute) walkthrough by
+the speaker, followed by a more hands-on session in breakout rooms where tutorial
+participants work on the topic (using interactive Jupyter notebooks) in a guided
+environment.
 
 | Time         | Event                                                                  |
 |:-------------|:-----------------------------------------------------------------------|
 | 20 minutes   | Introduction and orientation to PyGMT and associated resources         |
-| 45 minutes   | Mapping basics (frames, projections, coastlines, etc.)                 |
+| 30 minutes   | Mapping basics (frames, projections, coastlines, etc.)                 |
 | 45 minutes   | Plotting basics (lines, points, legends, colorbars, inset maps, etc.)  |
 | *10 minutes* | *Break*                                                                |
 | 45 minutes   | PyData and PyGMT (`pandas.DataFrame` and `xarray.DataArray` ingestion) |
-| 30 minutes   | Applications (3D LiDAR and seismology)                                 |
+| 45 minutes   | Applications: <br> 1. LiDAR — Processing 3D point clouds to Digital Elevation Model grids <br> 2. Seismology — Visualizing focal mechanisms from recent earthquakes |
 | 30 minutes   | Group projects in breakouts                                            |
 | 15 minutes   | Wrap up                                                                |
 
@@ -160,7 +163,7 @@ notebooks) often!** 🚨
   notebooks, even if they are preliminary.
 -->
 
-Jupyter Notebooks from previous tutorials and classes are available
+Jupyter notebooks from previous tutorials and classes are available
 [here](https://github.com/GenericMappingTools/foss4g2019oceania) and
 [here](https://github.com/fdannemanndugick/roses2020/tree/master/unit08).
 These will be modified and expanded to be made more suitable for a general SciPy
